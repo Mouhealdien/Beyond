@@ -53,12 +53,6 @@ const page = () => {
         
       />
 
-
-
-
-      
-       
-
     </header>
     <div  
     className='mt-[-150px] md:mt-[-100px] relative border border-black '

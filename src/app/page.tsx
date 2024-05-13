@@ -22,19 +22,7 @@ import HomeHero from "@/components/home/HomeHero";
 import OurWorksSection from "@/components/our works/OurWorksSection";
 import OurServicesSection from "@/components/home/OurServicesSection";
 export default function Home() {
-  const Card = (
-    <div
-      className="bg-[#FEEEE9]  max-w-[350px] px-20 py-10"
-      style={{
-        clipPath: " polygon(0 0, 68% 0, 100% 28%, 100% 100%, 28% 100%, 0 71%)",
-      }}
-    >
-      <div className="   ">
-        <h1 className="text-7xl">+30</h1>
-        <p className="text-3xl">Happy customers</p>
-      </div>
-    </div>
-  );
+
 
   return (
     <div>

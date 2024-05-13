@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -23,40 +24,41 @@
 } */
 
 .animation-dialog {
-  animation: sentence-animation 1.5s ease-in-out forwards;
-  opacity: 0;
-  transform: translateY(-50px);
+    animation: sentence-animation 1.5s ease-in-out forwards;
+    opacity: 0;
+    transform: translateY(-50px);
 }
 
 .animation-dialog.animation-active {
-  animation: sentence-animation-active 1.5s ease-in-out forwards;
+    animation: sentence-animation-active 1.5s ease-in-out forwards;
 }
 
 @keyframes sentence-animation {
-  0% {
-    opacity: 0;
-    transform: translateY(-50px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 @keyframes sentence-animation-active {
-  0% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  50% {
-    opacity: 1;
-    transform: translateY(-50px);
-  }
-  100% {
-    opacity: 0;
-    transform: translateY(-50px);
-  }
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
 }
+
 
 /*:root {
   --foreground-rgb: 0, 0, 0;
@@ -87,6 +89,7 @@ body {
     text-wrap: balance;
   }
 } */
+
 
 /* body {
     background-color: #202EFF;

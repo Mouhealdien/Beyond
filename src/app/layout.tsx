@@ -23,7 +23,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={ " font-['Poppins']"}>
         <Navbar
           backgroundColor={isHomePage ? "transparent " : "#202EFF"}
           display={isHomePage ? "none" : "block"}
