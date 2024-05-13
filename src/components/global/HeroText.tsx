@@ -33,7 +33,7 @@ const HeroText = () => {
         {sentences.map((sentence, index) => (
           <div
             key={index}
-            className={`absolute   md:top-20  lg:top-12 font-bold right-0 left-0 bottom-0 m-auto transition-all duration-500 ${
+            className={`absolute   md:top-20  lg:top-12 font-bold right-0 left-0 bottom-0 m-auto transition-all duration-1000 ${
               index === currentIndex
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-[-100%]"

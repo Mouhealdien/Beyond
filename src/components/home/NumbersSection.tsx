@@ -21,7 +21,7 @@ const NumbersSection = () => {
       <Container>
         <div className="z-20 w-full h-[600px]  xl:h-[650px]   bg-primary">
           <div className="  flex flex-row gap-5 md:gap-1 justify-center items-center flex-wrap md:flex-nowrap   ">
-            <h1 className="text-white z-20   font-bold w-fit text-4xl sm:text-5xl lg:text-6xl">
+            <h1 className="text-white z-20  xl:w-[500px]  font-bold w-fit text-4xl sm:text-5xl lg:text-6xl">
               We Make A Big Numbers
             </h1>
 
