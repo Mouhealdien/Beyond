@@ -24,7 +24,7 @@ const HeroText = () => {
     const lastWord = words[words.length - 1];
     const coloredLastWord = `<p class="text-blue-600 inline-block">${lastWord}</p>  `;
     const modifiedSentence = sentence.replace(lastWord, coloredLastWord);
-    return <p className="inline-block"  dangerouslySetInnerHTML={{ __html: modifiedSentence }} />;
+    return <div className="inline-block"  dangerouslySetInnerHTML={{ __html: modifiedSentence }} />;
   };
 
   return (
